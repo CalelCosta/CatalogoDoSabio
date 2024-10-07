@@ -21,7 +21,7 @@ import java.util.Optional;
 import static desafio.catalagosabio.domain.exception.ExceptionEnum.NOT_FOUND;
 
 
-@Service
+@Service("bookService")
 @Slf4j
 public class BookServiceImpl implements BookService {
 
